@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr
+Client: GA
+Author: Barb Magallon
+Developer Barb Magallon
 */
 
 
@@ -46,12 +46,12 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+    color: #000;
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: Helvetica, Arial, sans-serif;
+    background-size: cover; 
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -63,22 +63,160 @@ body {
 #container {
   width: 100%;
   margin: auto;
-  height: 500px;
+  background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
+  background-size: cover;
 
 }
 
-header {
-
-}
-
-footer {
-
-}
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
 
+h1 {
+  font-size: 24px;
+  font-weight: 800;  /*extra bold*/
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
 
+h2 {
+  font-weight: 600; /*semibold */
+  font-size: 24px; 
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 600; /*semibold */
+  font-size: 20px; 
+  color: #033048;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.button-center {
+  text-align: center;
+}
+
+.button-yellow {
+  background-color: #f9e42e;
+  color: #033048;
+  border: none;
+  padding: 15px 32px;
+  font-weight: 800;  /*extra bold*/
+  font-size: 14px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button-blue {
+  background-color: #033048;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  font-weight: 800;  /*extra bold*/
+  font-size: 12px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+header {
+  height: 300px;
+  color:white;
+}
+
+.benefits {
+  height: 210px;
+  background-color: #f0efef;
+  color:#606161;
+}
+.benefitstext {
+  font-weight: 300; /*light*/
+  font-size: 13px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+.benefitslist {
+  font-weight: 300; /*light*/
+  font-size: 13px;
+  list-style-type: disc;
+  padding-left: 70px;
+
+}
+
+.testimonials {
+  height: 150px;
+}
+
+.testimonialtext {
+color: white;
+font-weight: 300; /*light*/
+font-size: 18px;
+font-style: italic; 
+text-align: center;
+padding-top: 30px;
+padding-bottom: 10px;
+}
+
+.testimonialsig {
+  color: white;
+  font-weight: 600; /*semibold */
+  font-size: 18px; 
+  text-align: center;
+}
+.signup {
+  height: 80px;
+  background-color: #f9e42e;
+}
+footer {
+  height: 150px;
+  background-color: #121212;
+}
+
+.footermain {
+  color: #f9e42e;
+  font-size: 24px;
+  font-weight: 800;  /*extra bold*/
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footersocial {
+  text-align: center;
+
+}
+
+.footerli {
+  display:inline;
+  padding: 15px;
+}
+.footerli img {
+  height: 25px;
+}
+.footercopy {
+  color: white;
+  font-weight: 600; /*semibold */
+  font-size: 9px; 
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+
+}
 
